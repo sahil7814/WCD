@@ -1,0 +1,166 @@
+.login-page {
+  min-height: 100vh;
+  background: #fff;
+}
+
+.login-brand {
+  background:
+    linear-gradient(90deg, rgba(5, 31, 56, 0.94) 0%, rgba(12, 54, 88, 0.78) 58%, rgba(16, 66, 94, 0.42) 100%),
+    url('/loginimage.jpg') center 42% / cover no-repeat;
+}
+
+.login-brand:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.03), transparent 55%, rgba(0,20,38,.28));
+  pointer-events: none;
+}
+
+.brand-mark {
+  position: absolute;
+  z-index: 3;
+  top: 44px;
+  left: 8%;
+  width: 74px;
+  height: 74px;
+  object-fit: contain;
+  border: 0;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 14px 40px rgba(0, 25, 48, 0.28);
+}
+
+.login-title {
+  z-index: 3;
+  top: 34%;
+  text-shadow: 0 4px 24px rgba(0, 24, 45, 0.28);
+}
+
+.login-title span {
+  color: #d6edf5;
+  font-weight: 700;
+}
+
+.login-title h1 {
+  max-width: 560px;
+  color: #fff;
+}
+
+.login-title p {
+  color: #edf7fb;
+  font-weight: 600;
+}
+
+.brand-illustration {
+  display: none;
+}
+
+.login-panel {
+  background:
+    radial-gradient(circle at 88% 12%, rgba(36, 115, 153, 0.08), transparent 28%),
+    #fff;
+}
+
+.login-card {
+  width: min(430px, 100%);
+  padding: 38px;
+  border: 1px solid #e8eef4;
+  border-radius: 12px;
+  box-shadow: 0 24px 70px rgba(31, 55, 77, 0.12);
+}
+
+.emblem {
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+  border: 1px solid #dce6ef;
+  border-radius: 50%;
+  background: #fff;
+  padding: 4px;
+}
+
+.login-card h2 {
+  color: #172033;
+}
+
+.login-card label {
+  font-weight: 700;
+}
+
+.login-card input {
+  min-height: 48px;
+  border-radius: 6px;
+}
+
+.login-card .primary-button {
+  width: 100%;
+  height: 48px;
+  border-radius: 6px;
+  background: #174f7d;
+}
+
+.login-brand-logos {
+  position: absolute;
+  z-index: 5;
+  top: 36px;
+  left: 8%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.login-brand-logos .brand-mark,
+.login-brand-logos .hp-brand-mark {
+  position: static;
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0 12px 30px rgba(0, 25, 48, 0.24);
+}
+
+.login-card-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 auto 18px;
+}
+
+.login-card-logos .emblem,
+.login-card-logos .hp-emblem {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #dce6ef;
+  background: #fff;
+  padding: 5px;
+}
+
+@media (max-width: 900px) {
+  .brand-mark {
+    top: 24px;
+    left: 24px;
+    width: 62px;
+    height: 62px;
+  }
+
+  .login-title {
+    top: auto;
+    bottom: 38px;
+  }
+
+  .login-title h1 {
+    font-size: 32px;
+  }
+
+  .login-card {
+    box-shadow: none;
+  }
+}
