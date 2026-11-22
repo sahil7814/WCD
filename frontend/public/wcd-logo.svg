@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="WCD Himachal Pradesh Logo">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173f67"/><stop offset="1" stop-color="#0d2d4d"/></linearGradient>
+  </defs>
+  <circle cx="90" cy="90" r="84" fill="#fff" stroke="#d8e4ef" stroke-width="5"/>
+  <circle cx="90" cy="90" r="74" fill="url(#blue)"/>
+  <path d="M35 126c19-31 38-47 55-47 19 0 38 16 55 47H35z" fill="#d5a84b" opacity=".95"/>
+  <path d="M90 61c-14 0-24-8-24-20 0-11 10-19 24-19s24 8 24 19c0 12-10 20-24 20z" fill="#fff"/>
+  <path d="M61 103c7-20 17-31 29-31 13 0 23 11 29 31" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="90" cy="41" r="7" fill="#d5a84b"/>
+  <text x="90" y="148" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="18" font-weight="700">WCD</text>
+</svg>
