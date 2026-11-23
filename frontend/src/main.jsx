@@ -6,12 +6,14 @@ import { ThemeProvider, createTheme } from '@mui/material/styles'
 
 const theme = createTheme({
   palette: {
-    primary: { main: '#1d5d99' },
-    background: { default: '#f4f7fb' },
+    primary: { main: '#235db5' },
+    secondary: { main: '#2c8793' },
+    background: { default: '#f3f6fb', paper: '#ffffff' },
   },
-  shape: { borderRadius: 10 },
+  shape: { borderRadius: 12 },
   typography: {
-    fontFamily: "'DM Sans', 'Segoe UI', sans-serif"
+    fontFamily: "'DM Sans', 'Noto Sans Devanagari', 'Nirmala UI', 'Segoe UI', sans-serif",
+    button: { fontWeight: 700 }
   },
   components: {
     MuiTextField: {
