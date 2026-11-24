@@ -101,6 +101,22 @@
   background: #174f7d;
 }
 
+.auth-switch {
+  margin-top: 18px;
+  color: #667085;
+  font-size: 13px;
+  text-align: center;
+}
+
+.auth-switch button {
+  margin-left: 5px;
+  padding: 4px;
+  border: 0;
+  background: none;
+  color: #155f7c;
+  font-weight: 700;
+}
+
 .login-brand-logos {
   position: absolute;
   z-index: 5;
